@@ -5,7 +5,7 @@ from PIL import Image
 import onnxruntime as ort
 
 BASE_DIR = Path(__file__).resolve().parent
-MODEL_PATH = BASE_DIR / "quant.onnx"
+MODEL_PATH = BASE_DIR / "model_unquant.onnx"
 LABELS_PATH = BASE_DIR / "updated_hieroglyphs_copy.json"
 
 IMG_SIZE = 224
@@ -38,18 +38,20 @@ def predict_hieroglyph(filename: str):
     outputs = session.run([output_name], {input_name: x})
     probs = outputs[0][0]
 
-    top_k = 5
-    top_indices = np.argsort(probs)[::-1][:top_k]
+    # sort probs
+    top_indices = np.argsort(probs)[::-1][:5]
 
-    print("\nTop 5 predictions:")
+    # build list of top-5 dicts
+    top5 = []
     for i in top_indices:
-        info = LABELS[i]
-        print(f"{i}: {info}  (p={probs[0]:.4f})")
+        top5.append({"index": i, "info": LABELS[i], "confidence": float(probs[i])})
 
-    print("-----------------------------------")
+    # top-1 result
+    best_index = int(top_indices[0])
+    best_info = LABELS[best_index]
+    best_conf = float(probs[best_index])
 
-    idx = int(top_indices[0])
-    return idx, LABELS[idx], probs
+    return best_index, best_info, best_conf, top5
 
 
 if __name__ == "__main__":
