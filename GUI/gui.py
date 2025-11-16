@@ -6,7 +6,6 @@ import os
 import random
 import ttkbootstrap
 import customtkinter as ctk
-import zipfile
 import io
 import base64
 import sys
