@@ -44,7 +44,7 @@ def predict_hieroglyph(filename: str):
     print("\nTop 5 predictions:")
     for i in top_indices:
         info = LABELS[i]
-        print(f"{i}: {info}  (p={probs[i]:.4f})")
+        print(f"{i}: {info}  (p={probs[0]:.4f})")
 
     print("-----------------------------------")
 

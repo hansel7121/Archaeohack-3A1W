@@ -191,7 +191,7 @@ class DefinitionPage(ttk.Frame):
         self.result_label = ttk.Label(
             self,
             text="[Analysis Result and Definition will appear here]",
-            font=("Arial", 16, "bold"),
+            font=("Arial", 30, "bold"),
         )
         self.result_label.pack(pady=40, padx=20)
 
@@ -624,11 +624,11 @@ class HandwritingPad(ttk.Frame):
             img.save("reconstructed.png")
             idx, info, probs = pred.predict_hieroglyph("reconstructed.png")
             analysis_result = (
-                "Symbol: "
-                + info["hieroglyph"]
-                + "\t"
-                + "Description: "
-                + info["description"]
+                f"Symbol: {info['hieroglyph']}\n\n"
+                f"Description: {info['description']}\n\n"
+                f"Gardiner Num: {info['gardiner_num']}\n\n"
+                f"Pronunciation: {info['pronunciation']}\n\n"
+                f"Confidence: {round(100 * probs[idx])}%"
             )
             self.controller.frames[DefinitionPage.__name__].display_result(
                 analysis_result
