@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+GUI/gui.py
+archaeohack.egg-info/PKG-INFO
+archaeohack.egg-info/SOURCES.txt
+archaeohack.egg-info/dependency_links.txt
+archaeohack.egg-info/requires.txt
+archaeohack.egg-info/top_level.txt

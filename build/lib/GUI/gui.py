@@ -9,6 +9,8 @@ import customtkinter as ctk
 import io
 import base64
 import sys
+import os
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 sys.path.append(".")
 import predictor as pred

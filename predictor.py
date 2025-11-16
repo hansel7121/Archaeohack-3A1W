@@ -3,7 +3,8 @@ import numpy as np
 from pathlib import Path
 from PIL import Image
 import onnxruntime as ort
-
+import os
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 BASE_DIR = Path(__file__).resolve().parent
 MODEL_PATH = BASE_DIR / "model_unquant.onnx"
 LABELS_PATH = BASE_DIR / "updated_hieroglyphs_copy.json"

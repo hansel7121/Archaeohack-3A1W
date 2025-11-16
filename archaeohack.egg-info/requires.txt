@@ -1,0 +1,5 @@
+Pillow
+ttkbootstrap
+customtkinter
+numpy
+onnxruntime

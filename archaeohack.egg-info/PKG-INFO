@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: archaeohack
+Version: 0.1.0
+Summary: GUI + predictor for ArchaeoHack Hieroglyph Classifier
+Requires-Python: >=3.9
+Requires-Dist: Pillow
+Requires-Dist: ttkbootstrap
+Requires-Dist: customtkinter
+Requires-Dist: numpy
+Requires-Dist: onnxruntime

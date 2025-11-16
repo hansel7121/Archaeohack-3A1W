@@ -6,6 +6,7 @@ Archaeohack Visual Translator App is a Python driven that allows archaeologists 
 
 ## Required Libraries
 
+use pip install \_\_\_
 homebrew
 tkinter
 Pillow
@@ -24,5 +25,7 @@ base64
 
 ## Usage
 
-Make sure cd is directed towards the correct folder (Archaeohack-3A1W folder), orelse predictor.py wont run
-running the gui.py file opens the application.
+create a new file on your computer
+git clone https://github.com/hansel7121/Archaeohack-3A1W.git
+Run "pip install ."
+running gui.py opens the application.
