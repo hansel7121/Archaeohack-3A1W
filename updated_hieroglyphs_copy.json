@@ -1,0 +1,194 @@
+[
+ {
+    "index": 0,
+    "gardiner_num": "Aa1",
+    "hieroglyph": "𓐍",
+    "description": "Placenta",
+    "unicode_hex": "1340",
+    "pronunciation": "like ch in Scotch loch"
+ }, 
+{
+    "index": 1,
+    "gardiner_num": "D13",
+    "hieroglyph": "𓂃",
+    "description": "Eyebrow",
+    "unicode_hex": "13083",
+    "pronunciation": "ḏayp"
+ },
+{
+    "index": 2,
+    "gardiner_num": "D21",
+    "hieroglyph": "𓂝",
+    "description": "Arm",
+    "unicode_hex": "1309",
+    "pronunciation": "A guttural sound unknown to English."
+ },
+{
+    "index": 3,
+    "gardiner_num": "D22",
+    "hieroglyph": "𓂋",
+    "description": "Mouth",
+    "unicode_hex": "1308",
+    "pronunciation": "r"
+ },
+ {
+    "index": 4,
+    "gardiner_num": "D46",
+    "hieroglyph": "𓂧",
+    "description": "Hand",
+    "unicode_hex": "1307",
+    "pronunciation": "d"
+ },
+ {
+    "index": 5,
+    "gardiner_num": "D58",
+    "hieroglyph": "𓃀",
+    "description": "Foot",
+    "unicode_hex": "1300",
+    "pronunciation": "b"
+ },
+{
+    "index": 6,
+    "gardiner_num": "F32",
+    "hieroglyph": "𓄡",
+    "description": "Animal belly and tail",
+    "unicode_hex": "13121",
+    "pronunciation": "perhaps like ch in German ich"
+ },
+{
+    "index": 7,
+    "gardiner_num": "G14",
+    "hieroglyph": "𓅐",
+    "description": "Vulture",
+    "unicode_hex": "13150",
+    "pronunciation": "the glottal stop heard at the commencement of German words beginning with a vowel, ex. der Adler."
+ },
+ {
+    "index": 8,
+    "gardiner_num": "G17",
+    "hieroglyph": "𓅓",
+    "description": "Owl",
+    "unicode_hex": "13153",
+    "pronunciation": "m"
+ },
+{
+    "index": 9,
+    "gardiner_num": "G43",
+    "hieroglyph": "𓅱",
+    "description": "Quail chick, var. Z7",
+    "unicode_hex": "13171",
+    "pronunciation": "w"
+ },
+ {
+    "index": 10,
+    "gardiner_num": "I9",
+    "hieroglyph": "𓆑",
+    "description": "Horned viper",
+    "unicode_hex": "13191",
+    "pronunciation": "f"
+ },
+ {
+    "index": 11,
+    "gardiner_num": "I10",
+    "hieroglyph": "𓆓",
+    "description": "Cobra",
+    "unicode_hex": "13193",
+    "pronunciation": "originally dj and also a dull emphatic s"
+ },
+ {
+    "index": 12,
+    "gardiner_num": "M17",
+    "hieroglyph": "𓇋",
+    "description": "Reed leaf",
+    "unicode_hex": "131",
+    "pronunciation": "usually consonantal y; at the beginning of words sometimes identical with ꜣ."
+ },
+ {
+    "index": 13,
+    "gardiner_num": "N29",
+    "hieroglyph": "𓈎",
+    "description": "Sandy slope",
+    "unicode_hex": "1320",
+    "pronunciation": "backward k; rather like our q in queen"
+ },
+ {
+    "index": 14,
+    "gardiner_num": "N35",
+    "hieroglyph": "𓈖",
+    "description": "Water ripple",
+    "unicode_hex": "13216",
+    "pronunciation": "n"
+ },
+ {
+    "index": 15,
+    "gardiner_num": "N37",
+    "hieroglyph": "𓈙",
+    "description": "Pool",
+    "unicode_hex": "13219",
+    "pronunciation": "sh"
+ },
+ {
+    "index": 16,
+    "gardiner_num": "Q3",
+    "hieroglyph": "𓊪",
+    "description": "Stool",
+    "unicode_hex": "132",
+    "pronunciation": "p"
+ },
+{
+    "index": 17,
+    "gardiner_num": "S29",
+    "hieroglyph": "𓋴",
+    "description": "Folded cloth",
+    "unicode_hex": "1324",
+    "pronunciation": "s"
+ },
+ {
+    "index": 18,
+    "gardiner_num": "V13",
+    "hieroglyph": "𓍿",
+    "description": "Tethering rope",
+    "unicode_hex": "1337",
+    "pronunciation": "originally ash (č or tj)"
+ },
+{
+    "index": 19,
+    "gardiner_num": "V28",
+    "hieroglyph": "𓎛",
+    "description": "Wick",
+    "unicode_hex": "1339",
+    "pronunciation": "emphatic h"
+ },
+ {
+    "index": 20,
+    "gardiner_num": "V31",
+    "hieroglyph": "𓎡",
+    "description": "Basket with handle",
+    "unicode_hex": "1331",
+    "pronunciation": "k"
+ },
+ {
+    "index": 21,
+    "gardiner_num": "W11",
+    "hieroglyph": "𓎼",
+    "description": "Ring stand",
+    "unicode_hex": "133",
+    "pronunciation": "hard g"
+ },
+ {
+    "index": 22,
+    "gardiner_num": "X1",
+    "hieroglyph": "𓏏",
+    "description": "Small bread loaf",
+    "unicode_hex": "133",
+    "pronunciation": "t"
+ },
+ {
+    "index": 23,
+    "gardiner_num": "Z4",
+    "hieroglyph": "𓏭",
+    "description": "Two diagonal strokes",
+    "unicode_hex": "133",
+    "pronunciation": "y"
+ }
+]
