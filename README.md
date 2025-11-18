@@ -27,5 +27,5 @@ base64
 
 create a new file on your computer
 git clone https://github.com/hansel7121/Archaeohack-3A1W.git
-Run "pip install ."
+Run "pip install pyproject.toml"
 running gui.py opens the application.
